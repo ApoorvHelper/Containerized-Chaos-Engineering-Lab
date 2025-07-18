@@ -1,0 +1,6 @@
+
+
+Hello for this first we will have to:
+	1. Get the Docker and run juicebox inside it.
+	2. Stop the Juicebox inside the docker.
+	3. Get the logs inside it.
