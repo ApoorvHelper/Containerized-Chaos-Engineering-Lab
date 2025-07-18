@@ -1,0 +1,8 @@
+
+
+In this we will have the commands that will be used in this.
+
+Technologies that are getting used.
+	1. Docker
+	2. Juicebox as an Application
+	
