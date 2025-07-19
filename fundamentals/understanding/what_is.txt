@@ -1,0 +1,24 @@
+
+
+In this we will have the commands that will be used in this.
+
+Technologies that are getting used.
+	1. Docker
+	2. Ubuntu image
+	3. Running bash script to capture the SIGTERM signal{Graceful Shutdown} . This signal ends the thing but gives time to log. While SIGKILL signal does't provide time to log.
+-------------------------------------------------------------------------------------
+
+								Steps to set up the Lab
+
+Getting the dockerfile ready for this
+
+	1.Dockerfile will Create a docker container running ubuntu.(dockerfile)
+	2.Copy the script which aims to capture the SIGTERM.(script.sh)
+	3.Run that script inside the docker.
+	4.Stop the container via docker stop.
+	5.Container ends and logs gracefuly. You can see the container screen
+
+---------------------------------------------------------------------------------------------------
+
+Learnt what is SIGTERM and SIGKILL
+
