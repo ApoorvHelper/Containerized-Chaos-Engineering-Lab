@@ -1,0 +1,15 @@
+
+Hello. This small-sub-project is based on Chaos Engeneering between 2 containers.
+
+Motive to add 2 Container in such a way that if one container gets failed or Shutdown
+then other will get to know that and log that.
+
+Basically it will be like master and worker type of project.
+--------------------------------------------------------------------------------
+
+									Steps to Create
+
+1. initialize 2 Containers 1 intended to be A-logger-node and B-worker-node. You can also take multiple
+	workers node.
+2. If any worker node gets failed then it will log the data to logger-node.
+3. logger-node will let us know.Considering main machine as the Master-node	
