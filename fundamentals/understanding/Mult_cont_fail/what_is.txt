@@ -5,7 +5,7 @@ Motive to add 2 Container in such a way that if one container gets failed or Shu
 then other will get to know that and log that.
 
 Basically it will be like master and worker type of project.
---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 									Steps to Create
 
@@ -13,3 +13,25 @@ Basically it will be like master and worker type of project.
 	workers node.
 2. If any worker node gets failed then it will log the data to logger-node.
 3. logger-node will let us know.Considering main machine as the Master-node	
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+									Technical Process |Progress|
+
+1. Creating node.It has file that hosts.txt . Which have only one motive to tell 
+	wheather the machine is alive or not. Script sc.sh is reading this hosts.txt
+	for telling host is alive or not.
+2. Creating a docker volume for sharing hosts.txt between containers
+
+Now, we should have the worker node. which will log the hosts.txt . For that we
+	have to create a common sharing memory location Non-Volatile for these logger and worker node
+	
+
+
+
+					SIGKILL for Termination SIGKILL for sudden fall 
+
+
+
+		
