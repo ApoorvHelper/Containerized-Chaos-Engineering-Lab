@@ -34,4 +34,4 @@ Now, we should have the worker node. which will log the hosts.txt . For that we
 
 
 
-		
+Till now we have 2 containers Master can tell you that you container is not responding		
