@@ -1,0 +1,10 @@
+This directory is used for creation of both the nodes Master and Working Nodes. From parallel.sh and dockerfile. 
+
+With the help of this Directory you can make it both go live.
+
+NOTE: Run this script only when any of the node is not running. Otherwise it will kill other.
+
+This script is written solely for beginners and script kiddies.
+
+
+#sudo docker container run -it --name working-node --hostname working-node --network mult-cont -v $PWD/../../share/:/share setup
