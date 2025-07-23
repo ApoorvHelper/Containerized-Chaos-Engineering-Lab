@@ -7,7 +7,7 @@ SHARE_PATH="$PWD/../../share"
 # Build Docker image
 echo "🔧 Building Docker image '$IMAGE_NAME'..."
 sudo docker build -t "$IMAGE_NAME" .
-
+sudo docker network create "$NETWORK_NAME"
 # Function to launch a container in a new terminal
 launch_container() {
   local node_name=$1

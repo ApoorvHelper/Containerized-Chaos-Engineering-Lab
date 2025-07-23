@@ -16,6 +16,7 @@ while true; do
         echo "✅ Worker node is reachable via ping."
     else
         echo "❌ Worker node is NOT reachable via ping. | Might be killed |"
+	echo "Dead $WORKER_IP" > hosts.txt
     fi
 
     # Step 2: Service-level HTTP check using curl
